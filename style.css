@@ -1,0 +1,481 @@
+body {
+    height: 100%;
+    width: 100hv;
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    background-color: #252526;
+}
+
+/* hide chrome, safari, opera*/
+.scrollhide::-webkit-scrollbar {
+    display: none;
+}
+
+/* hide IE,Edge and firefox*/
+.scrollhide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.d-block {
+    height: 500px;
+}
+
+.carousel-caption {
+    text-align: left;
+    padding-top: 250px;
+}
+
+.toplogo {
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    margin-right: 20px;
+}
+
+.offcanvasimage {
+    position: relative;
+    height: 60px;
+    width: 60px;
+    border-radius: 30px;
+}
+
+.offcanvasimage:hover {
+    border: 3px solid blue;
+    border-radius: 30px;
+}
+
+.offcanvasrow {
+    padding: 10px 0px;
+    color: grey;
+}
+
+.offcanvas {
+    background-color: #252526;
+    color: white;
+    height: max-content !important;
+}
+
+.game {
+    text-align: left;
+}
+
+.close {
+    border: none !important;
+    color: aliceblue !important;
+}
+
+.a {
+    border-radius: 20px;
+    margin: 0px 5px;
+    color: grey;
+}
+
+.padd {
+    color: white !important;
+    padding-right: 60% !important;
+}
+
+/* .d{
+    padding: 5px 0px !important;
+    align-content: center !important; 
+}
+.e{
+    padding: 0px 20px;
+} */
+.a:hover {
+    background-color: blue;
+    color: white;
+}
+
+.card {
+    border: none !important;
+    padding-left: 0%;
+    padding-right: 0%;
+    top: 5px;
+    margin: 5px;
+}
+
+.baricon {
+    margin-right: 5px;
+}
+
+.space {
+    padding: 0px 20px;
+}
+
+.icon {
+    float: right;
+}
+
+.lastimage {
+    height: 300px;
+    width: 100%;
+}
+
+.lastalign {
+    color: white;
+    margin-top: 90px;
+}
+
+.but {
+    border-radius: 20px;
+    color: white;
+    font-weight: 800;
+    border: 2px solid white;
+    padding: 5px 20px;
+}
+
+.but:hover {
+    background: none;
+    border: 2px solid blue;
+}
+
+.card-body {
+    background-color: #252526;
+    color: gray;
+}
+
+.alink {
+    margin-left: 20px !important;
+}
+
+.link {
+    color: grey;
+    position: relative !important;
+}
+
+.link::after {
+    content: '' !important;
+    opacity: 0 !important;
+    transition: all 0.2s !important;
+    height: 2px !important;
+    width: 100% !important;
+    background-color: blue !important;
+    position: absolute !important;
+    bottom: 0 !important;
+    left: 0 !important;
+}
+
+.nav-link {
+    padding: 4px 15px;
+}
+
+.link:hover::after {
+    opacity: 1 !important;
+}
+
+.drop:hover::after {
+    opacity: 1;
+}
+
+.linkbar {
+    background-color: #252526;
+}
+
+#drop {
+    color: rgb(128, 128, 128) !important;
+
+}
+
+#drop:hover {
+    color: white !important;
+}
+
+
+/* ........................................... */
+
+.img-box::after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #0000005e;
+    opacity: 0;
+    transition-property: opacity;
+    transition-duration: 200ms;
+    border-radius: 5px;
+}
+
+.img-box:hover::after {
+    opacity: 100%;
+}
+
+.cta a {
+    position: absolute !important;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+    border: 2px solid white;
+    padding: 5px 20px;
+    text-decoration: none;
+    font-weight: 900;
+    color: white;
+    opacity: 0;
+    transition-property: all;
+    transition-duration: 500ms;
+    z-index: 2;
+}
+
+.img-box:hover .cta a {
+    opacity: 1;
+    left: 50%;
+}
+
+.cta a:hover {
+    border: 2px solid blue;
+    background: none;
+    transition: 0s !important;
+}
+
+.cta1 a {
+    position: absolute !important;
+    top: 80%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+    border: 2px solid white;
+    padding: 5px 20px;
+    text-decoration: none;
+    font-weight: 900;
+    color: white;
+    opacity: 0;
+    transition-property: all;
+    transition-duration: 500ms;
+    z-index: 2;
+}
+
+.img-box:hover .cta1 a {
+    opacity: 1;
+    left: 50%;
+}
+
+.cta1 a:hover {
+    color: white;
+    background: none;
+    border: 2px solid blue;
+    transition: 0s !important;
+}
+
+.morebtn {
+    color: white;
+    font-weight: 800;
+    padding: 5px 20px;
+    border-radius: 20px;
+    border: 2px solid white;
+}
+
+.morebtn:hover {
+    color: white;
+    border: 2px solid blue;
+}
+
+.card-text {
+    font-size: larger;
+    color: white;
+}
+
+/* ........................carousal names............... */
+@media(max-width: 769px) {
+    .carousel-caption {
+        padding-top: 200px !important;
+    }
+
+    .padd {
+        padding-right: 40% !important;
+    }
+}
+
+@media (max-width: 445px) {
+    .carousel-caption {
+        padding-top: 150px !important;
+    }
+
+    .padd {
+        padding-right: 20% !important;
+        font-size: smaller;
+    }
+
+}
+
+
+
+
+/* ..........................offcanvas game menu........... */
+
+
+@media(max-width: 457px) {
+    .offcanvasrow {
+        font-size: x-small;
+    }
+}
+
+/* ................................game nav................... */
+@media(max-width: 992px) {
+    .space {
+        padding: 0px 10px !important;
+    }
+
+    .nav-link.d {
+        padding: 0px !important;
+    }
+}
+
+@media(max-width: 769px) {
+    .name {
+        display: none;
+    }
+
+    .space {
+        padding: 0px 20px !important;
+    }
+
+    .nav-link.d {
+        padding: 0 3px !important;
+    }
+}
+
+@media (max-width: 426px) {
+
+    .nav-link.d {
+        padding: 0px !important;
+    }
+}
+
+@media(max-width: 374px) {
+    .space {
+        padding: 0px 2px !important;
+    }
+
+    .nav-link.d {
+        padding: 0px !important;
+    }
+}
+
+.sup {
+    padding: 30px 0px;
+    background-color: #1a1a1a;
+}
+
+/* ................................all game content nav................... */
+
+@media(max-width: 769px) {
+    .space {
+        padding: 0px 10px !important;
+    }
+
+    .nav-link.e {
+        padding: 0px 5px !important;
+    }
+}
+
+@media (max-width: 426px) {
+    .name {
+        display: none;
+    }
+
+    .nav-link.e {
+        padding: 0px 3px;
+    }
+}
+
+@media(max-width: 374px) {
+    .space {
+        padding: 0px 2px !important;
+    }
+
+    .nav-link.e {
+        padding: 0px !important;
+    }
+}
+
+/* .................footer.......... */
+
+.foot {
+    color: gray;
+    text-align: center;
+    margin: 15px;
+}
+
+.lang {
+    padding: 0px 10px;
+
+}
+
+.line {
+    color: black;
+    padding: 0% !important;
+    margin: 0% !important;
+}
+
+.breadcrumbs {
+    padding: 2px;
+    text-align: center;
+}
+
+.breadcrumbs-item {
+    display: inline-block;
+
+}
+
+.breadcrumbs-link {
+    text-decoration: none;
+    color: grey;
+    padding: 0px 20px;
+}
+
+.breadcrumbs-item:not(:last-of-type)::after {
+    content: '|';
+    color: black;
+}
+
+.breadcrumbs-link:hover {
+    color: white;
+}
+
+.A {
+    font-weight: 700;
+}
+
+.bot {
+    padding-top: 20px;
+}
+
+.copy {
+    color: grey;
+    text-align: center;
+    margin: 0% !important;
+    padding: 10px 0px;
+    font-size: small;
+
+}
+
+.copycon {
+    background-color: #1a1a1a;
+}
+
+
+
+@media(max-width: 769px) {
+    .breadcrumbs-link {
+        padding: 0px 10px;
+        font-size: smaller;
+    }
+
+}
+
+@media (max-width: 426px) {
+    .breadcrumbs-link {
+        padding: 0px 5px;
+        font-size: x-small;
+    }
+
+    .copy {
+        font-size: x-small;
+    }
+
+}
