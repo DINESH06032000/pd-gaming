@@ -39,6 +39,7 @@ body {
     height: 60px;
     width: 60px;
     border-radius: 30px;
+    object-fit: cover;
 }
 
 .offcanvasimage:hover {
@@ -49,6 +50,9 @@ body {
 .offcanvasrow {
     padding: 10px 0px;
     color: grey;
+    background-color: #1a1a1a;
+    border-radius: 10px;
+     
 }
 
 .offcanvas {
@@ -66,15 +70,23 @@ body {
     color: aliceblue !important;
 }
 
+
 .a {
     border-radius: 20px;
     margin: 0px 5px;
     color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .padd {
     color: white !important;
     padding-right: 60% !important;
+}
+.navbar_link{
+    color: grey;
+    text-decoration: none;
 }
 
 /* .d{
@@ -87,10 +99,12 @@ body {
 .a:hover {
     background-color: blue;
     color: white;
+    
 }
 
 .card {
     border: none !important;
+    --bs-card-bg: none !important;
     padding-left: 0%;
     padding-right: 0%;
     top: 5px;
@@ -185,7 +199,7 @@ body {
 
 
 /* ........................................... */
-
+ 
 .img-box::after {
     content: "";
     display: block;
@@ -249,6 +263,10 @@ body {
     z-index: 2;
 }
 
+.img-box img{
+    height: 100%;
+}
+
 .img-box:hover .cta1 a {
     opacity: 1;
     left: 50%;
@@ -298,6 +316,11 @@ body {
     .padd {
         padding-right: 20% !important;
         font-size: smaller;
+    }
+    .a:hover {
+        background-color: transparent;
+        color: blue;
+        
     }
 
 }
