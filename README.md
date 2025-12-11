@@ -1,4 +1,84 @@
-# PD Game Store Website
- click and view website : https://dinesh06032000.github.io/pd-gaming/
+<!-- PROJECT BANNER -->
+<p align="center">
+  <img src="https://github.com/dinesh06032000/pd-gaming/raw/main/assets/banner.png" alt="PD Game Store Banner" width="100%" />
+</p>
 
-Designed gaming store website that allows users to store and browse games seamlessly. The website was built using HTML and styled with CSS, while Bootstrap ensured a fully responsive design across devices. JavaScript was used to handle dynamic interactions and improve user experience. JSON was utilized for managing and storing game data efficiently. The project showcases a modern and interactive design tailored for gaming enthusiasts.
+<h1 align="center">🎮 PD Game Store Website</h1>
+
+<p align="center">
+  A modern and interactive gaming store designed for seamless browsing and smooth user experience.
+</p>
+
+---
+
+## 🔗 Live Demo  
+👉 **Click & View Website:**  
+**https://dinesh06032000.github.io/pd-gaming/**  
+
+---
+
+## 🛡️ Project Badges
+
+<p align="center">
+
+  <!-- Tech badges -->
+  <img src="https://img.shields.io/badge/HTML-5-orange?style=for-the-badge&logo=html5" />
+  <img src="https://img.shields.io/badge/CSS-3-blue?style=for-the-badge&logo=css3" />
+  <img src="https://img.shields.io/badge/JavaScript-ES6-yellow?style=for-the-badge&logo=javascript" />
+  <img src="https://img.shields.io/badge/Bootstrap-5-563d7c?style=for-the-badge&logo=bootstrap" />
+  <img src="https://img.shields.io/badge/JSON-Data-green?style=for-the-badge&logo=json" />
+
+  <br>
+
+  <!-- GitHub badges -->
+  <img src="https://img.shields.io/github/stars/dinesh06032000/pd-gaming?style=for-the-badge" />
+  <img src="https://img.shields.io/github/forks/dinesh06032000/pd-gaming?style=for-the-badge" />
+  <img src="https://img.shields.io/github/deployments/dinesh06032000/pd-gaming/github-pages?style=for-the-badge" />
+
+</p>
+
+---
+
+## 📝 Project Overview
+
+**PD Game Store** is a visually appealing and highly responsive gaming platform that allows users to browse a list of games, view details, and interact with a clean, gaming-inspired UI.  
+The site is optimized for performance, readability, and seamless interactions.
+
+---
+
+## 🎮 Features
+
+- 🕹️ Browse a curated collection of games  
+- 🚀 Fast-loading UI with clean animations  
+- 📱 Fully responsive mobile-first design  
+- ⚡ Interactive buttons, cards & dynamic behavior  
+- 🧩 JSON-based game data management  
+- 🌐 Hosted on GitHub Pages for free & fast access  
+
+---
+
+## 🖼️ Screenshots
+
+### 🏠 Homepage View
+<p align="center">
+  <img src="https://raw.githubusercontent.com/dinesh06032000/pd-gaming/main/assets/screenshots/home.png" width="100%" />
+</p>
+
+### 🎮 Game List
+<p align="center">
+  <img src="https://raw.githubusercontent.com/dinesh06032000/pd-gaming/main/assets/screenshots/games.png" width="100%" />
+</p>
+
+### 📄 Game Details Popup
+<p align="center">
+  <img src="https://raw.githubusercontent.com/dinesh06032000/pd-gaming/main/assets/screenshots/details.png" width="100%" />
+</p>
+
+> *(Replace the screenshot URLs with your actual image paths if needed.)*
+
+---
+
+## 🎥 Demo GIF (Preview)
+
+You can record a short demo using **ScreenToGif** or **OBS**, then place it inside:
+
