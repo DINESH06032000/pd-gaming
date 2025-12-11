@@ -11,7 +11,7 @@
   
 ## 🔗 Live Demo
 
-<p align="center">
+<p>
   👉 <a href="https://dinesh06032000.github.io/pd-gaming/" target="_blank"><b>Click & View Website</b></a>
 </p> 
 
