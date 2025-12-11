@@ -1,7 +1,5 @@
-<!-- PROJECT BANNER -->
-<p align="center">
-  <img src="https://github.com/DINESH06032000/pd-gaming/blob/main/img/Launcher-img.png" alt="PD Game Store Banner" width="100%" />
-</p>
+
+
 
 <h1 align="center">🎮 PD Game Store Website</h1>
 
@@ -61,24 +59,11 @@ The site is optimized for performance, readability, and seamless interactions.
 
 ### 🏠 Homepage View
 <p align="center">
-  <img src="https://raw.githubusercontent.com/dinesh06032000/pd-gaming/main/assets/screenshots/home.png" width="100%" />
-</p>
-
-### 🎮 Game List
-<p align="center">
-  <img src="https://raw.githubusercontent.com/dinesh06032000/pd-gaming/main/assets/screenshots/games.png" width="100%" />
-</p>
-
-### 📄 Game Details Popup
-<p align="center">
-  <img src="https://raw.githubusercontent.com/dinesh06032000/pd-gaming/main/assets/screenshots/details.png" width="100%" />
+  <img src="https://github.com/DINESH06032000/pd-gaming/blob/main/img/Launcher-img.png" alt="PD Game Store Banner" width="100%" />
 </p>
 
 > *(Replace the screenshot URLs with your actual image paths if needed.)*
 
 ---
 
-## 🎥 Demo GIF (Preview)
-
-You can record a short demo using **ScreenToGif** or **OBS**, then place it inside:
 
