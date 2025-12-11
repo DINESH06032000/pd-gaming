@@ -8,10 +8,12 @@
 </p>
 
 ---
+  
+## 🔗 Live Demo
 
-## 🔗 Live Demo  
-👉 **Click & View Website:**  
-**https://dinesh06032000.github.io/pd-gaming/**  
+<p align="center">
+  👉 <a href="https://dinesh06032000.github.io/pd-gaming/" target="_blank"><b>Click & View Website</b></a>
+</p> 
 
 ---
 
@@ -62,7 +64,6 @@ The site is optimized for performance, readability, and seamless interactions.
   <img src="https://github.com/DINESH06032000/pd-gaming/blob/main/img/Launcher-img.png" alt="PD Game Store Banner" width="100%" />
 </p>
 
-> *(Replace the screenshot URLs with your actual image paths if needed.)*
 
 ---
 
