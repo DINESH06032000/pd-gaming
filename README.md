@@ -1,6 +1,6 @@
 <!-- PROJECT BANNER -->
 <p align="center">
-  <img src="https://github.com/dinesh06032000/pd-gaming/raw/main/assets/banner.png" alt="PD Game Store Banner" width="100%" />
+  <img src="https://github.com/DINESH06032000/pd-gaming/blob/main/img/Launcher-img.png" alt="PD Game Store Banner" width="100%" />
 </p>
 
 <h1 align="center">🎮 PD Game Store Website</h1>
